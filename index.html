@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-         .font-sora {
+         .font-sora{
             font-family: "Sora", sans-serif;
         }
         .font-adlam-display {
@@ -52,7 +52,7 @@
     
           <!-- navbar-center -->
           <div class="navbar-center max-md:hidden">
-            <ul class="menu menu-horizontal px-1 text-xl">
+            <ul class="menu font-sora menu-horizontal px-1 text-xl">
               <li><a>Find a pet</a></li>
               <li><a>Breeds</a></li>
               <li><a>Contact us</a></li>
@@ -139,7 +139,7 @@
                 >
                   <li><a href="#">Find a pet</a></li>
                   <li><a href="#">Breeds</a></li>
-                  <li><a href="#">Contact us</a></li>
+                  <li><a href="D#">Contact us</a></li>
                   <li><a class="btn btn-outline border-yellow-500">Login</a></li>
                   <li><a class="btn btn-warning">Register</a></li>
                 </ul>
@@ -156,11 +156,11 @@
 <div class="max-w-screen-xl mx-auto px-4 relative mt-4 md:mt-16">
   <!-- banner-content -->
   <div class="space-y-4 md:space-y-6 w-[95%] md:w-2/3 lg:w-1/2 md:absolute top-0 left-4">
-    <h1 class="text-3xl md:text-5xl font-secondary">
+    <h1 class="text-3xl md:text-5xl font-adlam-display">
       Pamper Your Pet, <br />
       Because They Deserve <br />the Bes
     </h1>
-    <p>
+    <p class="font-sora">
       Discover a world of treats, toys, and essentials handpicked for your
       furry friends. Shop now and make tails wag with joy!</p>
 
@@ -176,17 +176,96 @@
 <!-- banner end  -->
 
 
-    </header>
+    </header>    
+    <main>
+
+      <section class=" mb-20 max-w-screen-xl mx-auto px-4 mt-24 md:mt-36 ">
+
+        <h1 class="font-adlam-display text-3xl md:text-4xl mb-10 mt-5 ">
+          Browse By Categories</h1>
+
+          <!-- container -->
+           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
+            
+            
+            <!-- card 1-->
+             <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+              <div class="text-center my-9 mx-12">
+                <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                  <img class="h-12 w-12" src="c1-assets/dog-cartoon.png" />
+                </div>
+                <h6 class="font-secondary mt-6 text-xl">Dog</h6>
+              <p>3 items</p>
+            </div>
+           </div>
+
+           <!-- card 2 -->
+           <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+            <div class="text-center my-9 mx-12">
+              <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                <img class="h-12 w-12" src="c1-assets/fish-cartoon.png" />
+              </div>
+              <h6 class="font-secondary mt-6 text-xl">Fish</h6>
+            <p>3 items</p>
+          </div>
+         </div>
+
+              <!-- card 3 -->
+              <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+                <div class="text-center my-9 mx-12">
+                  <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                    <img class="h-12 w-12" src="c1-assets/cat-cartoon.png" />
+                  </div>
+                  <h6 class="font-secondary mt-6 text-xl">Cat</h6>
+                <p>3 items</p>
+              </div>
+             </div>
 
 
-    
-    
-    
-    
+                  <!-- card 4 -->
+           <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+            <div class="text-center my-9 mx-12">
+              <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                <img class="h-12 w-12" src="c1-assets/bird-cartoon.png" />
+              </div>
+              <h6 class="font-secondary mt-6 text-xl">Birds</h6>
+            <p>3 items</p>
+          </div>
+         </div>
+
+              <!-- card 5 -->
+              <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+                <div class="text-center my-9 mx-12">
+                  <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                    <img class="h-12 w-12" src="c1-assets/pet-couch.png" />
+                  </div>
+                  <h6 class="font-secondary mt-6 text-xl">Small Pet</h6>
+                <p>3 items</p>
+              </div>
+             </div>
 
 
-    
-    <main></main>
+                  <!-- card 6 -->
+           <div class="bg-[#F9DF8A] rounded-lg flex justify-center max-w-[200px]">
+            <div class="text-center my-9 mx-12">
+              <div  class="bg-white rounded-full h-24 w-24 flex items-center justify-center">
+                <img class="h-12 w-12" src="c1-assets/rabbit-cartoon.png" />
+              </div>
+              <h6 class="font-secondary mt-6 text-xl">Rabit</h6>
+            <p>3 items</p>
+          </div>
+         </div>
+
+
+
+
+
+           </div>
+
+      </section>
+
+
+    </main>
     <footer></footer>    
 </body>
 </html>
