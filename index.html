@@ -1,0 +1,166 @@
+<html lang="en" data-theme="light"></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pet Website</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+         .font-sora {
+            font-family: "Sora", sans-serif;
+        }
+        .font-adlam-display {
+            font-family: "ADLaM Display", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#E76F51',
+                'btn-primary' : '#FFDC26', 
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+    <!-- first part -->
+    <header>
+      <!-- Navbar Start -->
+      <nav class="bg-[#FFF9F4]">
+        <div class="navbar max-w-screen-xl mx-auto px-4 py-7">
+          <!-- navbar-start -->
+          <div class="navbar-start">
+            <div>
+              <img class="w-3/4" src="c1-assets/logo-header.png" />
+            </div>
+            <a class="text-3xl"
+              >Browse<span class="text-[#FFDC26]">4</span>Pets</a
+            >
+          </div>
+    
+          <!-- navbar-center -->
+          <div class="navbar-center max-md:hidden">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+    
+          <!-- navbar-end -->
+          <div class="navbar-end flex items-center gap-3">
+            <!-- notification-icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+              />
+            </svg>
+    
+            <!-- search-icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+    
+            <!-- Buttons (Hidden on Small Devices) -->
+            <div class="hidden md:flex gap-3">
+              <a class="btn btn-outline border-yellow-500 text-xl">Login</a>
+              <a class="btn btn-warning text-xl">Register</a>
+            </div>
+    
+            <!-- Navbar Dropdown (only on mobile) -->
+            <div class="md:hidden">
+              <div class="dropdown">
+                <!-- Checkbox to toggle the dropdown -->
+                <input
+                  type="checkbox"
+                  id="dropdownToggle"
+                  class="hidden peer"
+                />
+    
+                <!-- Dropdown button -->
+                <label
+                  for="dropdownToggle"
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-ghost"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </label>
+    
+                <!-- Dropdown submenu -->
+                <ul
+                  tabindex="0"
+                  class="menu dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 -ml-36 shadow hidden peer-checked:block space-y-2"
+                >
+                  <li><a href="#">Find a pet</a></li>
+                  <li><a href="#">Breeds</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a class="btn btn-outline border-yellow-500">Login</a></li>
+                  <li><a class="btn btn-warning">Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="md:hidden" />
+      </nav>
+<!-- nav bar end -->
+    </header>
+
+    
+    
+    
+    
+    
+
+
+    
+    <main></main>
+    <footer></footer>    
+</body>
+</html>
